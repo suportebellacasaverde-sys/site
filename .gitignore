@@ -1,0 +1,16 @@
+# Arquivos de ambiente
+.env
+
+# Sistemas operacionais
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.suo
+
+# Node
+node_modules/
+npm-debug.log*
