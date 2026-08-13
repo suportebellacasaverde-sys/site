@@ -213,18 +213,20 @@
     var mensagem = document.getElementById("mensagem").value.trim();
 
     var linhas = [
-      "Olá, Bella Casa Verde! Gostaria de solicitar um orçamento.",
+      "Olá, Bella Casa Verde! 🌿🏡",
       "",
-      "Nome: " + nome,
-      "Telefone: " + telefone
+      "Gostaria de solicitar um orçamento. 😊",
+      "",
+      "👤 Nome: " + nome,
+      "📱 Telefone: " + telefone,
+      "📧 E-mail: " + (email || "não informado"),
+      "",
+      "🌱 Produto/Serviço de interesse: " + produto,
+      "",
+      "💬 Mensagem: " + mensagem,
+      "",
+      "Aguardo o retorno de vocês. Obrigado! 🙏"
     ];
-
-    if (email) {
-      linhas.push("E-mail: " + email);
-    }
-
-    linhas.push("Produto ou serviço de interesse: " + produto);
-    linhas.push("Mensagem: " + mensagem);
 
     return linhas.join("\n");
   }
